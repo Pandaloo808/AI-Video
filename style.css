@@ -1,0 +1,73 @@
+body
+{
+    background-size:cover;
+}
+.heading
+{
+    font-size:25px;
+    font-family:Georgia;
+    width:100%;
+    margin:0px;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ #start, #number_of_objects, #status
+ {
+     font-size:22px;
+     font-family:cursive;
+ }          
+ .btn-grad1 {
+    background-image: linear-gradient(to right, #4CA1AF 0%, #C4E0E5  51%, #4CA1AF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ .copy_right_footer
+ {
+     background-color:black;
+     color:white;
+     font-family:Georgia;
+     position:fixed;
+     bottom:0;
+     width:100%;
+     line-height:3;
+     text-align:center;
+     font-size:18px;
+ }
+ canvas
+ {
+     border:2px solid white;
+     border-radius:10px;
+     margin-top:130px;
+     box-shadow:5px 5px 5px white;
+ }
